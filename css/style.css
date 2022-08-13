@@ -1,0 +1,35 @@
+.countdown h1{
+    text-align: center;
+}
+
+.countdown .timer{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.countdown .timer .item{
+    flex-grow: 1;
+    background: red;
+    color: #fff;
+    margin: 0 5px;
+    padding: 10px;
+    transition: all 0.2s linear;
+}
+
+.countdown .timer .item .item-inner{
+    transform: translateY(0px);
+    max-height: 38px;
+    overflow: hidden;
+}
+
+.countdown .timer .item span{
+    display: block;
+    text-align: center;
+}
+
+.countdown .timer .item span.number{
+    font-weight: bold;
+    font-size: 2rem;
+    transition: all 0.2s linear;
+}
